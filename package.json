@@ -6,9 +6,11 @@
   "repository": "VovanR/toggle-in-array",
   "author": "Vladimir Rodkin <mail@vovanr.com> (http://vovanr.com/)",
   "engines": {
-    "node": ">=6"
+    "node": ">=4"
   },
   "scripts": {
+    "build": "rimraf lib && babel src -d lib",
+    "prepare": "npm run build",
     "prepush": "npm test",
     "test": "xo && nyc ava",
     "tdd": "ava -w",
@@ -18,9 +20,9 @@
     "deploy": "gh-pages-deploy"
   },
   "files": [
-    "index.js"
+    "lib/"
   ],
-  "main": "index.js",
+  "main": "lib/index.js",
   "keywords": [
     "array",
     "toggle"
@@ -28,12 +30,16 @@
   "dependencies": {},
   "devDependencies": {
     "ava": "^0.24.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.2.0",
     "conventional-changelog-cli": "^1.3.5",
     "coveralls": "^3.0.0",
     "cz-conventional-changelog": "^2.1.0",
     "husky": "^0.14.3",
     "mversion": "^1.10.1",
     "nyc": "^11.4.1",
+    "rimraf": "^2.6.2",
     "xo": "^0.18.2"
   },
   "bugs": {
@@ -44,5 +50,24 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "4"
+          },
+          "useBuiltIns": true
+        }
+      ],
+      [
+        "minify",
+        {
+          "mangle": false
+        }
+      ]
+    ]
   }
 }
