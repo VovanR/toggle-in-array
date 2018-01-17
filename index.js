@@ -23,18 +23,20 @@
  * //=> [{v: 1}, {v: 3}]
  */
 function toggleInArray(arr, value, predicate) {
-	let includes = false;
 	predicate = predicate || defaultPredicate;
+	var includes = false;
+	var result = [];
 
-	const result = arr.reduce((acc, item) => {
+	for (var i = 0, length = arr.length; i < length; i += 1) {
+		var item = arr[i];
+
 		if (predicate(item, value)) {
 			includes = true;
-			return acc;
+			continue;
 		}
 
-		acc.push(item);
-		return acc;
-	}, []);
+		result.push(item);
+	}
 
 	if (!includes) {
 		result.push(value);
