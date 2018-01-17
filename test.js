@@ -1,5 +1,5 @@
 import test from 'ava';
-import fn from './';
+import fn from './src';
 
 test('is function', t => {
 	t.is(typeof fn, 'function');
