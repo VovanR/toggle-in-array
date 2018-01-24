@@ -36,6 +36,25 @@ toggleInArray(
 //=> [{v: 1}, {v: 3}]
 ```
 
+## API
+
+### `toggleInArray(arr, value, [predicate])`
+
+Returns an `Array` with `value` if `arr` is not includes this `value`<br>
+Returns an `Array` without `value` if `arr` is includes this `value`
+
+#### arr
+*Required*<br>
+Type: `Array`
+
+#### value
+*Required*<br>
+Type: `Array`
+
+#### predicate
+Type: `Function`<br>
+Default: `(a, b) => a === b` *Strict equality comparison*
+
 ## License
 MIT © [Vladimir Rodkin](https://github.com/VovanR)
 
