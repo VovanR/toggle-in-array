@@ -1,10 +1,10 @@
 /**
  * Add or remove item from array
  *
- * @param {Array} arr
- * @param {*} value
- * @param {Function} [predicate]
- * @return {Array}
+ * @param {Array} arr Array with values needs to toggle
+ * @param {*} value Value to toggle in `arr`
+ * @param {Function} [predicate] Function that compare each `arr` item to equal `value`. Strict equality comparison by default
+ * @return {Array} New array with or without `value`
  *
  * @example
  * toggleInArray([1, 2, 3], 2)
@@ -48,9 +48,9 @@ function toggleInArray(arr, value, predicate) {
 /**
  * Strict equality comparison
  *
- * @param {*} a
- * @param {*} b
- * @return {boolean}
+ * @param {*} a Item of array
+ * @param {*} b Value to toggle
+ * @return {boolean} `true` if `a` and `b` are strict equals
  */
 function defaultPredicate(a, b) {
 	return a === b;

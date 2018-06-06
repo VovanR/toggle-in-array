@@ -47,13 +47,19 @@ Returns an `Array` without `value` if `arr` is includes this `value`
 *Required*<br>
 Type: `Array`
 
+Array with values needs to toggle
+
 #### value
 *Required*<br>
 Type: `Array`
 
+Value to toggle in `arr`
+
 #### predicate
 Type: `Function`<br>
 Default: `(a, b) => a === b` *Strict equality comparison*
+
+Function that compare each `arr` item to equal `value`
 
 ## License
 MIT © [Vladimir Rodkin](https://github.com/VovanR)
