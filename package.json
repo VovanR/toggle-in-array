@@ -6,7 +6,7 @@
   "repository": "VovanR/toggle-in-array",
   "author": "Vladimir Rodkin <mail@vovanr.com> (http://vovanr.com/)",
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
     "prepush": "npm test",
