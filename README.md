@@ -64,22 +64,20 @@ Function that compare each `arr` item to equal `value`
 ## License
 MIT © [Vladimir Rodkin](https://github.com/VovanR)
 
-[demo]: http://vovanr.github.io/toggle-in-array
-
-[commitizen-url]: http://commitizen.github.io/cz-cli/
+[commitizen-url]: https://commitizen.github.io/cz-cli/
 [commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square
 
-[codestyle-url]: https://github.com/sindresorhus/xo
+[codestyle-url]: https://github.com/xojs/xo
 [codestyle-image]: https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square
 
 [npm-url]: https://npmjs.org/package/toggle-in-array
-[npm-image]: http://img.shields.io/npm/v/toggle-in-array.svg?style=flat-square
+[npm-image]: https://img.shields.io/npm/v/toggle-in-array.svg?style=flat-square
 
 [travis-url]: https://travis-ci.org/VovanR/toggle-in-array
-[travis-image]: http://img.shields.io/travis/VovanR/toggle-in-array.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/VovanR/toggle-in-array.svg?style=flat-square
 
 [coveralls-url]: https://coveralls.io/r/VovanR/toggle-in-array
-[coveralls-image]: http://img.shields.io/coveralls/VovanR/toggle-in-array.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/VovanR/toggle-in-array.svg?style=flat-square
 
 [depstat-url]: https://david-dm.org/VovanR/toggle-in-array
 [depstat-image]: https://david-dm.org/VovanR/toggle-in-array.svg?style=flat-square
