@@ -6,7 +6,7 @@
   "repository": "VovanR/toggle-in-array",
   "author": "Vladimir Rodkin <mail@vovanr.com> (https://github.com/VovanR)",
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "scripts": {
     "test": "xo --no-esnext && nyc ava",
