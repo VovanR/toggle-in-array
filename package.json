@@ -26,13 +26,13 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^1.2.1",
-    "conventional-changelog-cli": "^2.0.11",
-    "coveralls": "^3.0.2",
-    "cz-conventional-changelog": "^2.1.0",
-    "husky": "^1.3.1",
-    "mversion": "^1.12.0",
-    "nyc": "^13.2.0",
+    "ava": "^2.4.0",
+    "conventional-changelog-cli": "^2.0.23",
+    "coveralls": "^3.0.6",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.0.5",
+    "mversion": "^1.13.0",
+    "nyc": "^14.1.1",
     "xo": "^0.24.0"
   },
   "bugs": {
