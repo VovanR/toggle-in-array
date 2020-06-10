@@ -51,7 +51,7 @@ Array with values needs to toggle
 
 #### value
 *Required*<br>
-Type: `Array`
+Type: `*`
 
 Value to toggle in `array`
 
