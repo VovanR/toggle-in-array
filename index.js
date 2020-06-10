@@ -1,9 +1,9 @@
 /**
  * Add or remove item from array
  *
- * @param {Array} arr Array with values needs to toggle
- * @param {*} value Value to toggle in `arr`
- * @param {Function} [predicate] Function that compare each `arr` item to equal `value`. Strict equality comparison by default
+ * @param {Array} array Array with values needs to toggle
+ * @param {*} value Value to toggle in `array`
+ * @param {Function} [predicate] Function that compare each `array` item to equal `value`. Strict equality comparison by default
  * @return {Array} New array with or without `value`
  *
  * @example
@@ -22,13 +22,13 @@
  * )
  * //=> [{v: 1}, {v: 3}]
  */
-function toggleInArray(arr, value, predicate) {
+function toggleInArray(array, value, predicate) {
 	predicate = predicate || defaultPredicate;
 	var includes = false;
 	var result = [];
 
-	for (var i = 0, length = arr.length; i < length; i += 1) {
-		var item = arr[i];
+	for (var i = 0, length = array.length; i < length; i += 1) {
+		var item = array[i];
 
 		if (predicate(item, value)) {
 			includes = true;
