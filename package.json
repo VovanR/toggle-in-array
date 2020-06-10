@@ -1,6 +1,6 @@
 {
   "name": "toggle-in-array",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Add or remove item from array",
   "license": "MIT",
   "repository": "VovanR/toggle-in-array",

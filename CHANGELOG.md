@@ -1,3 +1,7 @@
+# [0.4.0](https://github.com/VovanR/toggle-in-array/compare/v0.3.0...v0.4.0) (2020-06-10)
+
+
+
 # [0.3.0](https://github.com/VovanR/toggle-in-array/compare/v0.2.0...v0.3.0) (2019-09-20)
 
 
