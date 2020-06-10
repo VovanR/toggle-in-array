@@ -38,12 +38,12 @@ toggleInArray(
 
 ## API
 
-### `toggleInArray(arr, value, [predicate])`
+### `toggleInArray(array, value, [predicate])`
 
-Returns an `Array` with `value` if `arr` is not includes this `value`<br>
-Returns an `Array` without `value` if `arr` is includes this `value`
+Returns an `Array` with `value` if `array` is not includes this `value`<br>
+Returns an `Array` without `value` if `array` is includes this `value`
 
-#### arr
+#### array
 *Required*<br>
 Type: `Array`
 
@@ -53,13 +53,13 @@ Array with values needs to toggle
 *Required*<br>
 Type: `Array`
 
-Value to toggle in `arr`
+Value to toggle in `array`
 
 #### predicate
 Type: `Function`<br>
 Default: `(a, b) => a === b` *Strict equality comparison*
 
-Function that compare each `arr` item to equal `value`
+Function that compare each `array` item to equal `value`
 
 ## License
 MIT © [Vladimir Rodkin](https://github.com/VovanR)
