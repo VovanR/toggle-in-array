@@ -22,17 +22,17 @@ npm install --save toggle-in-array
 ```js
 var toggleInArray = require('toggle-in-array');
 
-toggleInArray([1, 2, 3], 2)
+toggleInArray([1, 2, 3], 2);
 //=> [1, 3]
 
-toggleInArray([1, 2, 3], 4)
+toggleInArray([1, 2, 3], 4);
 //=> [1, 2, 3, 4]
 
 toggleInArray(
   [{v: 1}, {v: 2}, {v: 3}],
   {v: 2},
   (a, b) => a.v === b.v
-)
+);
 //=> [{v: 1}, {v: 3}]
 ```
 
