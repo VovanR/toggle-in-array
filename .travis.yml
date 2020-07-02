@@ -4,4 +4,4 @@ node_js:
   - v12
   - v10
 after_success:
-  - './node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls'
+  - npm run coverage
