@@ -26,14 +26,14 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^3.9.0",
-    "conventional-changelog-cli": "^2.0.34",
-    "coveralls": "^3.1.0",
-    "cz-conventional-changelog": "^3.2.0",
+    "ava": "^5.0.1",
+    "conventional-changelog-cli": "^2.2.2",
+    "coveralls": "^3.1.1",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.2.5",
     "mversion": "^2.0.1",
     "nyc": "^15.1.0",
-    "xo": "^0.32.0"
+    "xo": "^0.52.4"
   },
   "bugs": {
     "url": "https://github.com/VovanR/toggle-in-array/issues"
@@ -42,6 +42,13 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "xo": {
+    "rules": {
+      "no-var": "off",
+      "prefer-destructuring": "off",
+      "unicorn/prefer-module": "off"
     }
   },
   "husky": {
