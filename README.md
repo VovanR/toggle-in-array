@@ -6,8 +6,6 @@
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Coveralls Status][coveralls-image]][coveralls-url]
-[![Dependency Status][depstat-image]][depstat-url]
-[![DevDependency Status][depstat-dev-image]][depstat-dev-url]
 
 > Add or remove item from array
 
@@ -78,9 +76,3 @@ MIT © [Vladimir Rodkin](https://github.com/VovanR)
 
 [coveralls-url]: https://coveralls.io/r/VovanR/toggle-in-array
 [coveralls-image]: https://img.shields.io/coveralls/VovanR/toggle-in-array.svg?style=flat-square
-
-[depstat-url]: https://david-dm.org/VovanR/toggle-in-array
-[depstat-image]: https://david-dm.org/VovanR/toggle-in-array.svg?style=flat-square
-
-[depstat-dev-url]: https://david-dm.org/VovanR/toggle-in-array
-[depstat-dev-image]: https://david-dm.org/VovanR/toggle-in-array/dev-status.svg?style=flat-square
