@@ -4,7 +4,7 @@
 [![XO code style][codestyle-image]][codestyle-url]
 
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
+[![Build Status][build-image]][build-url]
 [![Coveralls Status][coveralls-image]][coveralls-url]
 
 > Add or remove item from array
@@ -71,8 +71,8 @@ MIT © [Vladimir Rodkin](https://github.com/VovanR)
 [npm-url]: https://npmjs.org/package/toggle-in-array
 [npm-image]: https://img.shields.io/npm/v/toggle-in-array.svg?style=flat-square
 
-[travis-url]: https://travis-ci.org/VovanR/toggle-in-array
-[travis-image]: https://img.shields.io/travis/VovanR/toggle-in-array.svg?style=flat-square
+[build-url]: https://github.com/VovanR/toggle-in-array/actions?query=workflow%3A%22Tests%22
+[build-image]: https://img.shields.io/github/workflow/status/VovanR/toggle-in-array/Tests?style=flat-square
 
 [coveralls-url]: https://coveralls.io/r/VovanR/toggle-in-array
 [coveralls-image]: https://img.shields.io/coveralls/VovanR/toggle-in-array.svg?style=flat-square
