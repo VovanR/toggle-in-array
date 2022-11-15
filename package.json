@@ -4,7 +4,15 @@
   "description": "Add or remove item from array",
   "license": "MIT",
   "repository": "VovanR/toggle-in-array",
+  "homepage": "https://github.com/VovanR/toggle-in-array#readme",
+  "bugs": "https://github.com/VovanR/toggle-in-array/issues",
   "author": "Vladimir Rodkin <mail@vovanr.com> (https://github.com/VovanR)",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "main": "index.js",
   "engines": {
     "node": ">=10"
   },
@@ -13,36 +21,23 @@
     "tdd": "ava -w",
     "release-patch": "mversion patch",
     "release-minor": "mversion minor",
-    "release-major": "mversion major",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "release-major": "mversion major"
   },
   "files": [
     "index.js"
   ],
-  "main": "index.js",
   "keywords": [
     "array",
     "toggle"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "ava": "^5.0.1",
-    "conventional-changelog-cli": "^2.2.2",
-    "coveralls": "^3.1.1",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^4.2.5",
-    "mversion": "^2.0.1",
-    "nyc": "^15.1.0",
-    "xo": "^0.52.4"
-  },
-  "bugs": {
-    "url": "https://github.com/VovanR/toggle-in-array/issues"
-  },
-  "homepage": "https://github.com/VovanR/toggle-in-array#readme",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+    "ava": "5.1.0",
+    "conventional-changelog-cli": "2.2.2",
+    "cz-conventional-changelog": "3.3.0",
+    "husky": "4.2.5",
+    "mversion": "2.0.1",
+    "nyc": "15.1.0",
+    "xo": "0.52.4"
   },
   "xo": {
     "rules": {
@@ -50,6 +45,12 @@
       "prefer-destructuring": "off",
       "unicorn/prefer-module": "off"
     }
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
   },
   "husky": {
     "hooks": {
