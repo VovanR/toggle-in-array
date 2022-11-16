@@ -14,7 +14,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "scripts": {
     "test": "xo --no-esnext && nyc ava",
@@ -37,7 +37,7 @@
     "husky": "4.2.5",
     "mversion": "2.0.1",
     "nyc": "15.1.0",
-    "xo": "0.52.4"
+    "xo": "0.53.0"
   },
   "xo": {
     "rules": {
